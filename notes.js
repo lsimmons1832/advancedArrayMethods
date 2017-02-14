@@ -12,9 +12,9 @@ outputFruitOld(fruits);
 
 // 1B: Rewrite using forEach array method.
 
-function outputFruits(element, index, array){
+function outputFruits(element, index){
 	console.log(element);
-	console.log("array[" + index + "] " + array[i]);
+	console.log("array[" + index + "] " + element);
 }
 
 fruits.forEach(outputFruits);
